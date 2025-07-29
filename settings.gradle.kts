@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "Pure City"
 include(":app")
 include(":app_api")
+include(":app_model")

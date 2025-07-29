@@ -41,7 +41,8 @@ android {
 
 dependencies {
 
-    implementation(project(":app_api"))
+    implementation(project(":app_api")) // temp
+    implementation(project(":app_model"))
 
     implementation(libs.bundles.kotlin)
     implementation(libs.bundles.coroutines)

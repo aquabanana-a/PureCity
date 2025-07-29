@@ -7,6 +7,8 @@ android {
     namespace = "com.banana.purecity.api"
     compileSdk = 35
 
+    sourceSets["main"].jniLibs.srcDirs("src/main/jniLibs")
+
     defaultConfig {
         minSdk = 28
 
@@ -33,6 +35,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.annotation)
     implementation(libs.bundles.kotlin)
     implementation(libs.bundles.coroutines)
 }
